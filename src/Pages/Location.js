@@ -40,6 +40,7 @@ const Location = () => {
                     Dimension: {dimension === "" ? "Unknown" : dimension}
                 </h5>
                 <h6 className="text-center">Type: {type === "" ? "Unknown" : type}</h6>
+                <h6 className="text-center">Total de personajes en locacion: {results ? results.length : "Ninguno" }</h6>
             </div>
             <div className="row">
                 <div className="col-lg-3 col-12 mb-4">

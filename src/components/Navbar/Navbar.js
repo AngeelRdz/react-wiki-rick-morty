@@ -61,6 +61,13 @@ const Navbar = () => {
                         >
                             Location
                         </NavLink>
+                        <NavLink
+                            activeClassName="active"
+                            className="nav-link"
+                            to="/locationAll"
+                        >
+                            Location All
+                        </NavLink>
                     </div>
                 </div>
             </div>

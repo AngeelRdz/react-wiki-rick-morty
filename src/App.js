@@ -12,6 +12,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Episodes from "./Pages/Episodes";
 import Location from "./Pages/Location";
 import CardDetails from "./components/Card/CardDetails";
+import AllLocation from "./Pages/AllLocations";
 
 function App() {
     return (
@@ -28,6 +29,8 @@ function App() {
 
                 <Route path="/location" element={<Location />} />
                 <Route path="/location/:id" element={<CardDetails />} />
+
+                <Route path="/locationAll" element={<AllLocation />} />
             </Routes>
         </Router>
     );
