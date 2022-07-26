@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
+
 import "../../App.scss";
 
 const Navbar = () => {
@@ -10,14 +11,17 @@ const Navbar = () => {
                     Rick & Morty <span className="text-primary">WiKi</span>
                 </Link>
 
-                <style jsx>{`
-                    button[aria-expanded="false"] > .close {
-                        display: none;
-                    }
-                    button[aria-expanded="true"] > .open {
-                        display: none;
-                    }
-                `}</style>
+                <style jsx>
+                    {`
+                        button[aria-expanded="false"] > .close {
+                            display: none;
+                        }
+
+                        button[aria-expanded="true"] > .open {
+                            display: none;
+                        }
+                    `}
+                </style>
 
                 <button
                     className="navbar-toggler border-0"
@@ -39,8 +43,8 @@ const Navbar = () => {
                 > 
                     <div className="navbar-nav fs-5">
                         <NavLink
-                        to="/"
-                        className="nav-link"
+                            to="/"
+                            className="nav-link"
                         >
                             Characters
                         </NavLink>

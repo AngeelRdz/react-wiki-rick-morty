@@ -13,6 +13,7 @@ const Episodes = () => {
     useEffect(() => {
         (async function () {
             let data = await fetch(api).then((res) => res.json());
+            console.log('data episodes', data);
             setInfo(data);
 
             let a = await Promise.all(
