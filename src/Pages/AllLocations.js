@@ -23,9 +23,9 @@ const Location = () => {
     return (
         <div className="App">
             <h1 className="text-center mb-3">Locations Alls</h1>
-            <h5 className="text-center">
+            <h4 className="text-center">
                 Total de locaciones: {info ? info.count : 'Ninguno'}
-            </h5>
+            </h4>
             <div className="container">
                 <div className="row">
                     <Filter

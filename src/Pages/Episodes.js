@@ -34,14 +34,14 @@ const Episodes = () => {
                     <span className="text-primary">{name === "" ? "Unknown" : name}</span>
                 </h1>
                 <h4 className="text-center">
-                    Episode y temporada:{" "}
+                    Episode & Season:{" "}
                     <span className="text-primary">{episode}</span>
                 </h4>
                 <h5 className="text-center">
-                    Fecha de emision: {air_date === "" ? "Unknown" : air_date}
+                    Date of issue: {air_date === "" ? "Unknown" : air_date}
                 </h5>
                 <h5 className="text-center">
-                    Personajes: {characters && characters.length}
+                    Characters: {characters && characters.length}
                 </h5>
             </div>
             <div className="row">
